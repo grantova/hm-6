@@ -83,7 +83,7 @@ body {
   align-items: center;
   margin-left: -1px;
   height: inherit;
-  animation: street 33s linear infinite;
+  animation: street 35s linear infinite;
 }
 
 .slide__image {
@@ -95,7 +95,7 @@ body {
   align-items: center;
   position: absolute;
   top: 35px;
-  animation: clouds 25s linear infinite;
+  animation: clouds 30s linear infinite;
 }
 
 .slide-clouds__image {
@@ -113,6 +113,9 @@ body {
 }
 
 .audio {
+  position: absolute;
+  bottom: 20%;
+  left: 43%;
   display: flex;
   margin: 0 auto;
   opacity: 80%;
